@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -44,7 +44,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -266,7 +266,7 @@ build ../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so: CXX_SHAR
   TARGET_PDB = MyGame.so.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/CMakeLists.txt
 # =============================================================================
 
 
@@ -274,7 +274,7 @@ build ../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so: CXX_SHAR
 # Utility command for rebuild_cache
 
 build engine/cocos/core/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -284,7 +284,7 @@ build engine/cocos/core/rebuild_cache: phony engine/cocos/core/CMakeFiles/rebuil
 # Utility command for edit_cache
 
 build engine/cocos/core/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/cocos/core/edit_cache: phony engine/cocos/core/CMakeFiles/edit_cache.util
@@ -4646,7 +4646,7 @@ build lib/libcocos2d.a: CXX_STATIC_LIBRARY_LINKER__cocos2d engine/cocos/core/CMa
   TARGET_PDB = cocos2d.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/cocos/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/cocos/CMakeLists.txt
 # =============================================================================
 
 
@@ -4654,7 +4654,7 @@ build lib/libcocos2d.a: CXX_STATIC_LIBRARY_LINKER__cocos2d engine/cocos/core/CMa
 # Utility command for rebuild_cache
 
 build engine/external/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4664,7 +4664,7 @@ build engine/external/rebuild_cache: phony engine/external/CMakeFiles/rebuild_ca
 # Utility command for edit_cache
 
 build engine/external/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/edit_cache: phony engine/external/CMakeFiles/edit_cache.util
@@ -4700,7 +4700,7 @@ build lib/libexternal.a: CXX_STATIC_LIBRARY_LINKER__external engine/external/CMa
   TARGET_PDB = external.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4708,7 +4708,7 @@ build lib/libexternal.a: CXX_STATIC_LIBRARY_LINKER__external engine/external/CMa
 # Utility command for rebuild_cache
 
 build engine/external/Box2D/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4718,13 +4718,13 @@ build engine/external/Box2D/rebuild_cache: phony engine/external/Box2D/CMakeFile
 # Utility command for edit_cache
 
 build engine/external/Box2D/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/Box2D/edit_cache: phony engine/external/Box2D/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4732,7 +4732,7 @@ build engine/external/Box2D/edit_cache: phony engine/external/Box2D/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build engine/external/chipmunk/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4742,13 +4742,13 @@ build engine/external/chipmunk/rebuild_cache: phony engine/external/chipmunk/CMa
 # Utility command for edit_cache
 
 build engine/external/chipmunk/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/chipmunk/edit_cache: phony engine/external/chipmunk/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4756,7 +4756,7 @@ build engine/external/chipmunk/edit_cache: phony engine/external/chipmunk/CMakeF
 # Utility command for rebuild_cache
 
 build engine/external/freetype2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4766,13 +4766,13 @@ build engine/external/freetype2/rebuild_cache: phony engine/external/freetype2/C
 # Utility command for edit_cache
 
 build engine/external/freetype2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/freetype2/edit_cache: phony engine/external/freetype2/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4780,7 +4780,7 @@ build engine/external/freetype2/edit_cache: phony engine/external/freetype2/CMak
 # Utility command for rebuild_cache
 
 build engine/external/recast/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4790,7 +4790,7 @@ build engine/external/recast/rebuild_cache: phony engine/external/recast/CMakeFi
 # Utility command for edit_cache
 
 build engine/external/recast/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/recast/edit_cache: phony engine/external/recast/CMakeFiles/edit_cache.util
@@ -4921,7 +4921,7 @@ build lib/libext_recast.a: CXX_STATIC_LIBRARY_LINKER__ext_recast engine/external
   TARGET_PDB = ext_recast.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4929,7 +4929,7 @@ build lib/libext_recast.a: CXX_STATIC_LIBRARY_LINKER__ext_recast engine/external
 # Utility command for rebuild_cache
 
 build engine/external/bullet/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4939,13 +4939,13 @@ build engine/external/bullet/rebuild_cache: phony engine/external/bullet/CMakeFi
 # Utility command for edit_cache
 
 build engine/external/bullet/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/bullet/edit_cache: phony engine/external/bullet/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4953,7 +4953,7 @@ build engine/external/bullet/edit_cache: phony engine/external/bullet/CMakeFiles
 # Utility command for rebuild_cache
 
 build engine/external/jpeg/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4963,13 +4963,13 @@ build engine/external/jpeg/rebuild_cache: phony engine/external/jpeg/CMakeFiles/
 # Utility command for edit_cache
 
 build engine/external/jpeg/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/jpeg/edit_cache: phony engine/external/jpeg/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -4977,7 +4977,7 @@ build engine/external/jpeg/edit_cache: phony engine/external/jpeg/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build engine/external/openssl/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4987,13 +4987,13 @@ build engine/external/openssl/rebuild_cache: phony engine/external/openssl/CMake
 # Utility command for edit_cache
 
 build engine/external/openssl/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/openssl/edit_cache: phony engine/external/openssl/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5001,7 +5001,7 @@ build engine/external/openssl/edit_cache: phony engine/external/openssl/CMakeFil
 # Utility command for rebuild_cache
 
 build engine/external/tiff/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5011,13 +5011,13 @@ build engine/external/tiff/rebuild_cache: phony engine/external/tiff/CMakeFiles/
 # Utility command for edit_cache
 
 build engine/external/tiff/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/tiff/edit_cache: phony engine/external/tiff/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5025,7 +5025,7 @@ build engine/external/tiff/edit_cache: phony engine/external/tiff/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build engine/external/uv/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5035,13 +5035,13 @@ build engine/external/uv/rebuild_cache: phony engine/external/uv/CMakeFiles/rebu
 # Utility command for edit_cache
 
 build engine/external/uv/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/uv/edit_cache: phony engine/external/uv/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5049,7 +5049,7 @@ build engine/external/uv/edit_cache: phony engine/external/uv/CMakeFiles/edit_ca
 # Utility command for rebuild_cache
 
 build engine/external/webp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5059,13 +5059,13 @@ build engine/external/webp/rebuild_cache: phony engine/external/webp/CMakeFiles/
 # Utility command for edit_cache
 
 build engine/external/webp/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/webp/edit_cache: phony engine/external/webp/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5073,7 +5073,7 @@ build engine/external/webp/edit_cache: phony engine/external/webp/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build engine/external/websockets/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5083,13 +5083,13 @@ build engine/external/websockets/rebuild_cache: phony engine/external/websockets
 # Utility command for edit_cache
 
 build engine/external/websockets/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/websockets/edit_cache: phony engine/external/websockets/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5097,7 +5097,7 @@ build engine/external/websockets/edit_cache: phony engine/external/websockets/CM
 # Utility command for rebuild_cache
 
 build engine/external/tinyxml2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5107,7 +5107,7 @@ build engine/external/tinyxml2/rebuild_cache: phony engine/external/tinyxml2/CMa
 # Utility command for edit_cache
 
 build engine/external/tinyxml2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/tinyxml2/edit_cache: phony engine/external/tinyxml2/CMakeFiles/edit_cache.util
@@ -5142,7 +5142,7 @@ build lib/libext_tinyxml2.a: CXX_STATIC_LIBRARY_LINKER__ext_tinyxml2 engine/exte
   TARGET_PDB = ext_tinyxml2.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5150,7 +5150,7 @@ build lib/libext_tinyxml2.a: CXX_STATIC_LIBRARY_LINKER__ext_tinyxml2 engine/exte
 # Utility command for rebuild_cache
 
 build engine/external/xxhash/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5160,7 +5160,7 @@ build engine/external/xxhash/rebuild_cache: phony engine/external/xxhash/CMakeFi
 # Utility command for edit_cache
 
 build engine/external/xxhash/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/xxhash/edit_cache: phony engine/external/xxhash/CMakeFiles/edit_cache.util
@@ -5195,7 +5195,7 @@ build lib/libext_xxhash.a: C_STATIC_LIBRARY_LINKER__ext_xxhash engine/external/x
   TARGET_PDB = ext_xxhash.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5203,7 +5203,7 @@ build lib/libext_xxhash.a: C_STATIC_LIBRARY_LINKER__ext_xxhash engine/external/x
 # Utility command for rebuild_cache
 
 build engine/external/xxtea/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5213,7 +5213,7 @@ build engine/external/xxtea/rebuild_cache: phony engine/external/xxtea/CMakeFile
 # Utility command for edit_cache
 
 build engine/external/xxtea/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/xxtea/edit_cache: phony engine/external/xxtea/CMakeFiles/edit_cache.util
@@ -5248,7 +5248,7 @@ build lib/libext_xxtea.a: CXX_STATIC_LIBRARY_LINKER__ext_xxtea engine/external/x
   TARGET_PDB = ext_xxtea.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5256,7 +5256,7 @@ build lib/libext_xxtea.a: CXX_STATIC_LIBRARY_LINKER__ext_xxtea engine/external/x
 # Utility command for rebuild_cache
 
 build engine/external/clipper/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5266,7 +5266,7 @@ build engine/external/clipper/rebuild_cache: phony engine/external/clipper/CMake
 # Utility command for edit_cache
 
 build engine/external/clipper/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/clipper/edit_cache: phony engine/external/clipper/CMakeFiles/edit_cache.util
@@ -5301,7 +5301,7 @@ build lib/libext_clipper.a: CXX_STATIC_LIBRARY_LINKER__ext_clipper engine/extern
   TARGET_PDB = ext_clipper.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5309,7 +5309,7 @@ build lib/libext_clipper.a: CXX_STATIC_LIBRARY_LINKER__ext_clipper engine/extern
 # Utility command for rebuild_cache
 
 build engine/external/edtaa3func/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5319,7 +5319,7 @@ build engine/external/edtaa3func/rebuild_cache: phony engine/external/edtaa3func
 # Utility command for edit_cache
 
 build engine/external/edtaa3func/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/edtaa3func/edit_cache: phony engine/external/edtaa3func/CMakeFiles/edit_cache.util
@@ -5354,7 +5354,7 @@ build lib/libext_edtaa3func.a: CXX_STATIC_LIBRARY_LINKER__ext_edtaa3func engine/
   TARGET_PDB = ext_edtaa3func.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5362,7 +5362,7 @@ build lib/libext_edtaa3func.a: CXX_STATIC_LIBRARY_LINKER__ext_edtaa3func engine/
 # Utility command for edit_cache
 
 build engine/external/ConvertUTF/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/ConvertUTF/edit_cache: phony engine/external/ConvertUTF/CMakeFiles/edit_cache.util
@@ -5371,7 +5371,7 @@ build engine/external/ConvertUTF/edit_cache: phony engine/external/ConvertUTF/CM
 # Utility command for rebuild_cache
 
 build engine/external/ConvertUTF/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5413,7 +5413,7 @@ build lib/libext_convertUTF.a: CXX_STATIC_LIBRARY_LINKER__ext_convertUTF engine/
   TARGET_PDB = ext_convertUTF.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5421,7 +5421,7 @@ build lib/libext_convertUTF.a: CXX_STATIC_LIBRARY_LINKER__ext_convertUTF engine/
 # Utility command for rebuild_cache
 
 build engine/external/poly2tri/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5431,7 +5431,7 @@ build engine/external/poly2tri/rebuild_cache: phony engine/external/poly2tri/CMa
 # Utility command for edit_cache
 
 build engine/external/poly2tri/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/poly2tri/edit_cache: phony engine/external/poly2tri/CMakeFiles/edit_cache.util
@@ -5490,7 +5490,7 @@ build lib/libext_poly2tri.a: CXX_STATIC_LIBRARY_LINKER__ext_poly2tri engine/exte
   TARGET_PDB = ext_poly2tri.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5498,7 +5498,7 @@ build lib/libext_poly2tri.a: CXX_STATIC_LIBRARY_LINKER__ext_poly2tri engine/exte
 # Utility command for rebuild_cache
 
 build engine/external/md5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5508,7 +5508,7 @@ build engine/external/md5/rebuild_cache: phony engine/external/md5/CMakeFiles/re
 # Utility command for edit_cache
 
 build engine/external/md5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5 && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/md5/edit_cache: phony engine/external/md5/CMakeFiles/edit_cache.util
@@ -5543,7 +5543,7 @@ build lib/libext_md5.a: C_STATIC_LIBRARY_LINKER__ext_md5 engine/external/md5/CMa
   TARGET_PDB = ext_md5.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5551,7 +5551,7 @@ build lib/libext_md5.a: C_STATIC_LIBRARY_LINKER__ext_md5 engine/external/md5/CMa
 # Utility command for rebuild_cache
 
 build engine/external/curl/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5561,13 +5561,13 @@ build engine/external/curl/rebuild_cache: phony engine/external/curl/CMakeFiles/
 # Utility command for edit_cache
 
 build engine/external/curl/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/curl/edit_cache: phony engine/external/curl/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5575,7 +5575,7 @@ build engine/external/curl/edit_cache: phony engine/external/curl/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build engine/external/png/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5585,13 +5585,13 @@ build engine/external/png/rebuild_cache: phony engine/external/png/CMakeFiles/re
 # Utility command for edit_cache
 
 build engine/external/png/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/png/edit_cache: phony engine/external/png/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5599,7 +5599,7 @@ build engine/external/png/edit_cache: phony engine/external/png/CMakeFiles/edit_
 # Utility command for rebuild_cache
 
 build engine/external/android-specific/cpufeatures/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5609,7 +5609,7 @@ build engine/external/android-specific/cpufeatures/rebuild_cache: phony engine/e
 # Utility command for edit_cache
 
 build engine/external/android-specific/cpufeatures/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/android-specific/cpufeatures/edit_cache: phony engine/external/android-specific/cpufeatures/CMakeFiles/edit_cache.util
@@ -5644,7 +5644,7 @@ build engine/external/android-specific/cpufeatures/libext_cpufeatures.a: C_STATI
   TARGET_PDB = ext_cpufeatures.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5652,7 +5652,7 @@ build engine/external/android-specific/cpufeatures/libext_cpufeatures.a: C_STATI
 # Utility command for rebuild_cache
 
 build engine/external/android-specific/pvmp3dec/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5662,7 +5662,7 @@ build engine/external/android-specific/pvmp3dec/rebuild_cache: phony engine/exte
 # Utility command for edit_cache
 
 build engine/external/android-specific/pvmp3dec/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/android-specific/pvmp3dec/edit_cache: phony engine/external/android-specific/pvmp3dec/CMakeFiles/edit_cache.util
@@ -5865,7 +5865,7 @@ build lib/libext_pvmp3dec.a: CXX_STATIC_LIBRARY_LINKER__ext_pvmp3dec engine/exte
   TARGET_PDB = ext_pvmp3dec.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -5873,7 +5873,7 @@ build lib/libext_pvmp3dec.a: CXX_STATIC_LIBRARY_LINKER__ext_pvmp3dec engine/exte
 # Utility command for rebuild_cache
 
 build engine/external/android-specific/tremolo/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5883,7 +5883,7 @@ build engine/external/android-specific/tremolo/rebuild_cache: phony engine/exter
 # Utility command for edit_cache
 
 build engine/external/android-specific/tremolo/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/android-specific/tremolo/edit_cache: phony engine/external/android-specific/tremolo/CMakeFiles/edit_cache.util
@@ -6003,7 +6003,7 @@ build lib/libext_tremolo.a: C_STATIC_LIBRARY_LINKER__ext_tremolo engine/external
   TARGET_PDB = ext_tremolo.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -6011,7 +6011,7 @@ build lib/libext_tremolo.a: C_STATIC_LIBRARY_LINKER__ext_tremolo engine/external
 # Utility command for rebuild_cache
 
 build engine/external/zlib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -6021,13 +6021,13 @@ build engine/external/zlib/rebuild_cache: phony engine/external/zlib/CMakeFiles/
 # Utility command for edit_cache
 
 build engine/external/zlib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/zlib/edit_cache: phony engine/external/zlib/CMakeFiles/edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/CMakeLists.txt
 # =============================================================================
 
 
@@ -6035,7 +6035,7 @@ build engine/external/zlib/edit_cache: phony engine/external/zlib/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build engine/external/unzip/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -6045,7 +6045,7 @@ build engine/external/unzip/rebuild_cache: phony engine/external/unzip/CMakeFile
 # Utility command for edit_cache
 
 build engine/external/unzip/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/external/unzip/edit_cache: phony engine/external/unzip/CMakeFiles/edit_cache.util
@@ -6092,7 +6092,7 @@ build lib/libext_unzip.a: CXX_STATIC_LIBRARY_LINKER__ext_unzip engine/external/u
   TARGET_PDB = ext_unzip.a.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/devmob/devmob_dev/Games/DodgeBall/CMakeLists.txt
+# /home/devmob/nexuszone/Games/DodgeBall/CMakeLists.txt
 # =============================================================================
 
 
@@ -6100,7 +6100,7 @@ build lib/libext_unzip.a: CXX_STATIC_LIBRARY_LINKER__ext_unzip engine/external/u
 # Utility command for rebuild_cache
 
 build engine/cocos/platform/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -6110,7 +6110,7 @@ build engine/cocos/platform/rebuild_cache: phony engine/cocos/platform/CMakeFile
 # Utility command for edit_cache
 
 build engine/cocos/platform/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform && /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build engine/cocos/platform/edit_cache: phony engine/cocos/platform/CMakeFiles/edit_cache.util
@@ -6229,175 +6229,175 @@ build libexternal.a: phony lib/libexternal.a
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/core
 
 build  engine/cocos/core/all: phony cocos2d engine/external/all
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/cocos/platform
 
 build  engine/cocos/platform/all: phony cpp_android_spec
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external
 
 build  engine/external/all: phony external engine/external/Box2D/all engine/external/chipmunk/all engine/external/freetype2/all engine/external/recast/all engine/external/bullet/all engine/external/jpeg/all engine/external/openssl/all engine/external/tiff/all engine/external/uv/all engine/external/webp/all engine/external/websockets/all engine/external/tinyxml2/all engine/external/xxhash/all engine/external/xxtea/all engine/external/clipper/all engine/external/edtaa3func/all engine/external/ConvertUTF/all engine/external/poly2tri/all engine/external/md5/all engine/external/curl/all engine/external/png/all engine/external/android-specific/cpufeatures/all engine/external/android-specific/pvmp3dec/all engine/external/android-specific/tremolo/all engine/external/zlib/all engine/external/unzip/all
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/Box2D
 
 build  engine/external/Box2D/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/ConvertUTF
 
 build  engine/external/ConvertUTF/all: phony ext_convertUTF
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/cpufeatures
 
 build  engine/external/android-specific/cpufeatures/all: phony ext_cpufeatures
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/pvmp3dec
 
 build  engine/external/android-specific/pvmp3dec/all: phony ext_pvmp3dec
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/android-specific/tremolo
 
 build  engine/external/android-specific/tremolo/all: phony ext_tremolo
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/bullet
 
 build  engine/external/bullet/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/chipmunk
 
 build  engine/external/chipmunk/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/clipper
 
 build  engine/external/clipper/all: phony ext_clipper
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/curl
 
 build  engine/external/curl/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/edtaa3func
 
 build  engine/external/edtaa3func/all: phony ext_edtaa3func
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/freetype2
 
 build  engine/external/freetype2/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/jpeg
 
 build  engine/external/jpeg/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/md5
 
 build  engine/external/md5/all: phony ext_md5
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/openssl
 
 build  engine/external/openssl/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/png
 
 build  engine/external/png/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/poly2tri
 
 build  engine/external/poly2tri/all: phony ext_poly2tri
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/recast
 
 build  engine/external/recast/all: phony ext_recast
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tiff
 
 build  engine/external/tiff/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/tinyxml2
 
 build  engine/external/tinyxml2/all: phony ext_tinyxml2
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/unzip
 
 build  engine/external/unzip/all: phony ext_unzip
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/uv
 
 build  engine/external/uv/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/webp
 
 build  engine/external/webp/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/websockets
 
 build  engine/external/websockets/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxhash
 
 build  engine/external/xxhash/all: phony ext_xxhash
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/xxtea
 
 build  engine/external/xxtea/all: phony ext_xxtea
 # =============================================================================
 
 #############################################
-# Folder: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib
+# Folder: /home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/zlib
 
 build  engine/external/zlib/all: phony
 # =============================================================================

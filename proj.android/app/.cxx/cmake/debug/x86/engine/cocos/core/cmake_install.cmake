@@ -1,4 +1,4 @@
-# Install script for directory: /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/cocos
+# Install script for directory: /home/devmob/nexuszone/Games/DodgeBall/cocos2d/cocos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/cmake_install.cmake")
+  include("/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/engine/external/cmake_install.cmake")
 
 endif()
 

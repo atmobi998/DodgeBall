@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
-  "cxxBuildFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
+  "originalCxxBuildFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
+  "cxxBuildFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
   "abiPlatformVersion": 21,
   "cmake": {
-    "cmakeWrappingBaseFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cxx/debug/x86",
-    "cmakeArtifactsBaseFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
+    "cmakeWrappingBaseFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cxx/debug/x86",
+    "cmakeArtifactsBaseFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,7 +19,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
+      "buildRoot": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86",
       "cmakeToolchain": "/home/devmob/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab/x86/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -65,11 +65,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "cmakeServerLogFile": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/cmake_server_log.txt"
+    "cmakeServerLogFile": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86/cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [
@@ -112,8 +112,8 @@
       "-frtti -fexceptions -fsigned-char"
     ],
     "variantName": "debug",
-    "objFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj",
-    "soFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/obj",
+    "soFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build/intermediates/cmake/debug/lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
@@ -126,13 +126,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx",
+      "cxxFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates",
+      "intermediatesFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build/intermediates",
       "gradleModulePathName": ":DodgeBall",
-      "moduleRootFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app",
-      "moduleBuildFile": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build.gradle",
-      "makeFile": "/home/devmob/devmob_dev/Games/DodgeBall/CMakeLists.txt",
+      "moduleRootFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app",
+      "moduleBuildFile": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/build.gradle",
+      "makeFile": "/home/devmob/nexuszone/Games/DodgeBall/CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "/home/devmob/Android/Sdk/ndk/21.4.7075529",
       "ndkVersion": "21.4.7075529",
@@ -218,9 +218,9 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android",
-        "cxxFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/.cxx",
-        "compilerSettingsCacheFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/.cxx",
+        "rootBuildGradleFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android",
+        "cxxFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/.cxx",
+        "compilerSettingsCacheFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/.cxx",
         "sdkFolder": "/home/devmob/Android/Sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
@@ -230,10 +230,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab"
+    "prefabDirectory": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/prefab/x86"
 }

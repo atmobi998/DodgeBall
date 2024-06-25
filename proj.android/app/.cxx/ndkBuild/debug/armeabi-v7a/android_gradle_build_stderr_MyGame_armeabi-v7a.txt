@@ -1,6 +1,0 @@
-/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/jni/../../../Classes/Physics/ContactListener.cpp:11:10: fatal error: 'CCDirector.h' file not found
-#include "CCDirector.h"
-         ^~~~~~~~~~~~~~
-1 error generated.
-make: *** [/home/devmob/Android/Sdk/ndk/21.4.7075529/build/core/build-binary.mk:478: /home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/MyGame//home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/jni/__/__/__/Classes/Physics/ContactListener.o] Error 1
-make: *** Waiting for unfinished jobs....

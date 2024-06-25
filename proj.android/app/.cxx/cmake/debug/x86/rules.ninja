@@ -376,7 +376,7 @@ rule CXX_STATIC_LIBRARY_LINKER__cpp_android_spec
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/devmob_dev/Games/DodgeBall -B/home/devmob/devmob_dev/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
+  command = /home/devmob/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/devmob/nexuszone/Games/DodgeBall -B/home/devmob/nexuszone/Games/DodgeBall/proj.android/app/.cxx/cmake/debug/x86
   description = Re-running CMake...
   generator = 1
 

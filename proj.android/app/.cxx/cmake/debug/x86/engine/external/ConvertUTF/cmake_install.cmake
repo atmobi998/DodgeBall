@@ -1,4 +1,4 @@
-# Install script for directory: /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/ConvertUTF
+# Install script for directory: /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/ConvertUTF
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

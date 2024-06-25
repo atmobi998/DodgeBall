@@ -1,4 +1,4 @@
-# Install script for directory: /home/devmob/devmob_dev/Games/DodgeBall/cocos2d/external/curl
+# Install script for directory: /home/devmob/nexuszone/Games/DodgeBall/cocos2d/external/curl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
